@@ -36,6 +36,7 @@ const Profile = () => {
       }
     };
     fetchMyOrders();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user, navigate]);
 
   const handleLogout = () => {
